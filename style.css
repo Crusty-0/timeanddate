@@ -1,5 +1,6 @@
 body {
-  background-color: #121212;
+  background: url('background.jpg') no-repeat center center fixed;
+  background-size: cover;
   color: white;
   font-family: Arial, sans-serif;
   display: flex;
@@ -8,6 +9,7 @@ body {
   justify-content: center;
   height: 100vh;
   margin: 0;
+  text-shadow: 1px 1px 2px black;
 }
 input, button {
   padding: 10px;
